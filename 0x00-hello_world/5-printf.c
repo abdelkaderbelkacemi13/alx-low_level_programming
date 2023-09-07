@@ -2,10 +2,10 @@
 
 /**
  * main - Entry point
- * 
- * Description: 'the program's description'
- * 
- * Return: Always 0 (Success)
+ *
+ * Description: My C program to print using printf
+ *
+ * Return: Always 0 (Seccess)
 */
 
 int main(void)
