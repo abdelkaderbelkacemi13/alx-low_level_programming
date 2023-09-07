@@ -6,7 +6,6 @@
  * Description: This is my C program, that print without 'printf'
  *
  * Return: Always 0 (Success)
- *
 */
 
 int main(void)
