@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Starting here
+ * main - Entry point
  *
- * Description: My first C program that use put function to print
+ * Description: 'the program's description'
  *
- * Rutern: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
