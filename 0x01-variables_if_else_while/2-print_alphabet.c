@@ -8,12 +8,13 @@
 */
 int main(void)
 {
-	int alphabet = 'a';
-	
-	for (; 'z' >= alphabet;)
-	{
-		putchar(alphabet);
-		alphabet++;
-	}
-	return (0);
+int alphabet = 'a';
+
+for (; 'z' >= alphabet;)
+{
+	putchar(alphabet);
+	alphabet++;
+	putchar(\n);
+}
+return (0);
 }
