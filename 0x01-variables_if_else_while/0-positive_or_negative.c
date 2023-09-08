@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Description: testing the numbers if positive or negative
+ * Description: 'generate number and tell if it is positive or negative'
  *
- * Return : 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
