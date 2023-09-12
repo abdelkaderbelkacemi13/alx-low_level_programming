@@ -9,9 +9,8 @@ void print_alphabet(void)
 
 	alpha = 'a';
 
-	int k;
 
-	for (k = 0; k < 10; k++)
+	for (int k = 0; k < 10; k++)
 	{
 		while (alpha <= 'z')
 		{
