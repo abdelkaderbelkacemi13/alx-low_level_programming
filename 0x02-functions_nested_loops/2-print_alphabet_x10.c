@@ -5,12 +5,12 @@
 */
 void print_alphabet(void)
 {
-	int alpha;
+	int ka, alpha;
 
 	alpha = 'a';
 
 
-	for (int k = 0; k < 10; k++)
+	for (ka = 0; k < 10; k++)
 	{
 		while (alpha <= 'z')
 		{
