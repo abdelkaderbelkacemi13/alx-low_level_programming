@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet - it is a function that use _putchar to print the alphabet
+ * print_alphabet_x10 - is a function that use _putchar to print the alphabet
 */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int ka, alpha;
 
