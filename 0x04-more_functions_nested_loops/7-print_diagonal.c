@@ -9,7 +9,7 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 	{
-	putchar('\n');
+	_putchar('\n');
 	}
 	else
 	{
@@ -18,11 +18,11 @@ void print_diagonal(int n)
 	for (dl2 = 0; dl2 < n; dl2++)
 	{
 	if (dl2 == dl1)
-		putchar('\\');
+		_putchar('\\');
 	else if (dl2 < dl1)
-		putchar(' ');
+		_putchar(' ');
 	}
-	putchar('\n');
+	_putchar('\n');
 	}
 	}
 }
