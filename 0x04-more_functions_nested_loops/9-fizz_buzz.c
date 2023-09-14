@@ -36,6 +36,6 @@ int main(void)
 			printf(" ");
 		number++;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
