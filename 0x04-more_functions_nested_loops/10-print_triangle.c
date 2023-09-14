@@ -10,6 +10,7 @@ void print_triangle(int size)
 	if (size <= 0)
 	{
 		_putchar('\n');
+	}
 	else
 	{
 	i = 1;
@@ -28,7 +29,7 @@ void print_triangle(int size)
 			j++;
 		}
 		i++;
+		_putchar('\n');
 	}
-	_putchar ('\n');
 	}
 }
