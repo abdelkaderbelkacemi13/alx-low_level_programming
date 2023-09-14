@@ -1,18 +1,17 @@
 #include "main.h"
 /**
  * print_triangle - prints a triangle
- * @tablesize: size of the triangle
+ * @size: size of the triangle
 */
-void print_triangle(int tablesize)
+void print_triangle(int size)
 {
 	int i, j;
 
-	tabelsize = 10;
 	i = 1;
-	while (i <= tabelsize)
+	while (i <= size)
 	{
 		j = 1;
-		while (j <= tabelsize - i)
+		while (j <= size - i)
 		{
 			_putchar(' ');
 			j++;
