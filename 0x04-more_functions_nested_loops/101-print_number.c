@@ -5,20 +5,21 @@
 */
 void print_number(int n)
 {
-	int maxy;
+	unsigned int mi;
 
-	if (n > 0)
+	if (mi < 0)
 	{
-		maxy = n;
-	}
-	else
+		mi = -n;
+		_putchar('-');
+	} else
 	{
-		maxy = -n;
-		_putchar('_');
+		mi = n;
 	}
-	if (maxy / 10)
+
+	if (mi / 10)
 	{
-		print_number(maxy / 10);
+		print_number(mi / 10);
 	}
-	_putchar((maxy % 10) + '0');
+
+	_putchar((mi % 10) + '0');
 }
