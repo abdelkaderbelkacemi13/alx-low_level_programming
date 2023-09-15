@@ -18,7 +18,7 @@ void print_number(int n)
 	}
 	if (maxy / 10)
 	{
-		_putchar(maxy / 10);
+		print_number(maxy / 10);
 	}
 	_putchar((maxy % 10) + '0');
 }
