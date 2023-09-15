@@ -7,7 +7,7 @@ void print_number(int n)
 {
 	int maxy;
 
-	if (n < 0)
+	if (n > 0)
 	{
 		maxy = n;
 	}
