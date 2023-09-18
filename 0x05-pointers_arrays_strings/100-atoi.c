@@ -12,11 +12,11 @@ int _atoi(char *s)
 
 	do {
 		if (*s == '-')
-		sing *= -1;
-	else if (*s >= '0' && *s <= '9')
-		a = (a * 10) + (*s + '0');
-	else if (a > 0)
-		break;
+			sing *= -1;
+		else if (*s >= '0' && *s <= '9')
+			a = (a * 10) + (*s - '0');
+		else if (a > 0)
+			break;
 	} while (*s++);
 	return (a * sing);
 }
