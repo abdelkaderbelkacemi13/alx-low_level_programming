@@ -4,7 +4,6 @@
  * main - a program that performs simple operations.
  * @argc: argc's number
  * @argv: argv argument
- *
  * Return: always (0)
  */
 int main(int argc, char *argv[])
