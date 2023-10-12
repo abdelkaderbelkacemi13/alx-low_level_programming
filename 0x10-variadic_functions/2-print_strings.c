@@ -19,11 +19,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		if (!wrd)
 			wrd = "(nil)";
+		if (!separator)
+			printf("%s", wrd);
+		else if (separator && a == 0)
+			printf("%s", wrd);
+		else
+			printf("%s%s", separator, wrd);
 
-		if (a > 0 && separator)
-			printf("%s", separator);
-
-		printf("%s", wrd);
 		a++;
 	} while (a < n);
 	printf("\n");
